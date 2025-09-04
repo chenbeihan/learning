@@ -24,7 +24,7 @@ int main() {
         int u, v;
         cin >> u >> v;
         adj[u].push_back(v);
-        //adj[v].push_back(u);
+        //adj[v].push_back(u); //注释掉即为有向边（单行道），没注释掉就是无向边（双行道）
     }
     
     cout << "\nAdjacency list:\n";
